@@ -11,8 +11,8 @@ import google.generativeai as genai
 from PIL import Image
 
 
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key="AIzaSyCEX5aDbUSHG-pLVMDB8C_zmIYjQ4RmE7Q")
 
 ## Function to load Gemini model and get respones
 model = genai.GenerativeModel('gemini-pro-vision')
